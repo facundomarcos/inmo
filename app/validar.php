@@ -1,7 +1,7 @@
 <?php
 
 try{
-    $base=new PDO("mysql:host=localhost; dbname=inmobiliaria", "root", "");
+    $base=new PDO("mysql:host=localhost; dbname=inmobiliaria", "root", "z5VqdJiRmcJea4");
     $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $sql="select * from usuarios where email= :email and clave= :clave";
     $resultado=$base->prepare($sql);
