@@ -1,0 +1,21 @@
+#viviendas h3, h4 {
+    text-align: center;
+}
+
+
+
+#viviendas .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#viviendas article {
+    margin: 15px;
+    
+}
+
+#viviendas img {
+    width: 100%;
+    max-width: 280px;
+}

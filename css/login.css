@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(../img/ladrillo2.jpg);
+	image-rendering: auto;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: monospace;
+}
+
+form {
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.5);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 200px;
+	border-radius: 7px;
+
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.5);
+}
+
+input {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 30px 0;
+	font-size: 20px;
+
+}
+
+input[type="submit"] {
+	background: linear-gradient(#FFDA63, #FFB940);
+	color: brown;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+
+}
+
+input[type="submit"]:hover {
+	opacity: 1;
+}
+
+input[type="submit"]:active {
+	transform: scale(0.9);
+}
+
+@media (max-width: 768px){
+	form {
+		width: 70%;
+	}
+}
+
+@media (max-width: 480px){
+	form {
+		width: 95%;
+	}
+}

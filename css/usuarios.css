@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+	background-image: url(../img/ladrillo2.jpg);
+	margin-top: 100px;
+	background-size: 100vw 100vh;
+    font-family: 'Ubuntu', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.info-usuario img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    
+}
+.info-casa img {
+    flex: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    border: 7px solid #fff;
+    
+}
+
+
+
+
+header {
+    width: 100%;
+    height: 90px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
